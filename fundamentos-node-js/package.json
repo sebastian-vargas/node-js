@@ -1,0 +1,29 @@
+{
+  "name": "curso-node",
+  "version": "1.0.0",
+  "description": "curso de node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastian-vargas/node-js.git"
+  },
+  "keywords": [
+    "node",
+    "node.js",
+    "express",
+    "backend"
+  ],
+  "author": "Johan Vargas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebastian-vargas/node-js/issues"
+  },
+  "homepage": "https://github.com/sebastian-vargas/node-js#readme",
+  "dependencies": {
+    "eslint": "^9.23.0",
+    "picocolors": "1.1.1"
+  }
+}
