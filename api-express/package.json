@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "dev:1": "node --watch 1.http.js",
+    "dev:2": "node --watch 2.routing.js",
+    "dev:3": "node --watch 3.express.js"
+  },
+  "devDependencies": {
+    "standard": "^17.1.2"
+  },
+  "dependencies": {
+    "express": "4.21.2"
+  }
+}

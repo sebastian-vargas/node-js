@@ -1,0 +1,16 @@
+### Este archivo va ligado a la extension REST Client de VSCode para hacer request sin postman
+
+###Recuperar informacion del pokemon ditto
+GET http://localhost:1234/pokemon/ditto
+
+### Para crear un Pokemon
+POST http://localhost:1234/pokemon
+Content-Type: application/json
+
+{
+    "name":"ditto",
+    "type":"normal",
+    "moves": [
+        "transform"
+    ]
+}
